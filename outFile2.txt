@@ -1,0 +1,136 @@
+Enter information Processing method 
+Data inputted: + John 
+Index: 0
+Printing on bucket 0 
+HashTable[0]: (dummy null) 
+*** enter hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[0]: (dummy John) -> (John null) 
+Data inputted: + Jane 
+Index: 2
+Printing on bucket 2 
+HashTable[2]: (dummy null) 
+*** enter hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[2]: (dummy Jane) -> (Jane null) 
+Data inputted: + Alice 
+Index: 0
+Printing on bucket 0 
+HashTable[0]: (dummy John) -> (John null) 
+*** enter hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[0]: (dummy Alice) -> (Alice John) -> (John null) 
+Data inputted: + Bob 
+Index: 2
+Printing on bucket 2 
+HashTable[2]: (dummy Jane) -> (Jane null) 
+*** enter hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[2]: (dummy Bob) -> (Bob Jane) -> (Jane null) 
+Data inputted: + Charlie 
+Index: 1
+Printing on bucket 1 
+HashTable[1]: (dummy null) 
+*** enter hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[1]: (dummy Charlie) -> (Charlie null) 
+Data inputted: - Alice 
+Index: 0
+Printing on bucket 0 
+HashTable[0]: (dummy Alice) -> (Alice John) -> (John null) 
+** Inside hashDelete method. Performing hashDelete 
+*** Warning: data is *not* in the database! 
+Data inputted: + Eve 
+Index: 1
+Printing on bucket 1 
+HashTable[1]: (dummy Charlie) -> (Charlie null) 
+*** enter hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[1]: (dummy Charlie) -> (Charlie Eve) -> (Eve null) 
+Data inputted: + Frank 
+Index: 4
+Printing on bucket 4 
+HashTable[4]: (dummy null) 
+*** enter hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[4]: (dummy Frank) -> (Frank null) 
+Data inputted: + Grace 
+Index: 2
+Printing on bucket 2 
+HashTable[2]: (dummy Bob) -> (Bob Jane) -> (Jane null) 
+*** enter hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[2]: (dummy Bob) -> (Bob Grace) -> (Grace Jane) -> (Jane null) 
+Data inputted: + Henry 
+Index: 1
+Printing on bucket 1 
+HashTable[1]: (dummy Charlie) -> (Charlie Eve) -> (Eve null) 
+*** enter hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[1]: (dummy Charlie) -> (Charlie Eve) -> (Eve Henry) -> (Henry null) 
+Data inputted: + Ivy 
+Index: 2
+Printing on bucket 2 
+HashTable[2]: (dummy Bob) -> (Bob Grace) -> (Grace Jane) -> (Jane null) 
+*** enter hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[2]: (dummy Bob) -> (Bob Grace) -> (Grace Ivy) -> (Ivy Jane) -> (Jane null) 
+Data inputted: + Jack 
+Index: 1
+Printing on bucket 1 
+HashTable[1]: (dummy Charlie) -> (Charlie Eve) -> (Eve Henry) -> (Henry null) 
+*** enter hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[1]: (dummy Charlie) -> (Charlie Eve) -> (Eve Henry) -> (Henry Jack) -> (Jack null) 
+Data inputted: + Karen 
+Index: 1
+Printing on bucket 1 
+HashTable[1]: (dummy Charlie) -> (Charlie Eve) -> (Eve Henry) -> (Henry Jack) -> (Jack null) 
+*** enter hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[1]: (dummy Charlie) -> (Charlie Eve) -> (Eve Henry) -> (Henry Jack) -> (Jack Karen) -> (Karen null) 
+Data inputted: - Bob 
+Index: 2
+Printing on bucket 2 
+HashTable[2]: (dummy Bob) -> (Bob Grace) -> (Grace Ivy) -> (Ivy Jane) -> (Jane null) 
+** Inside hashDelete method. Performing hashDelete 
+*** Warning: data is *not* in the database! 
+Data inputted: ? Charlie 
+Index: 1
+Printing on bucket 1 
+HashTable[1]: (dummy Charlie) -> (Charlie Eve) -> (Eve Henry) -> (Henry Jack) -> (Jack Karen) -> (Karen null) 
+** Inside hashRetrieval. Performing hashRetrieval 
+** Warning, the record is *not* in the database! 
+Data inputted: + Larry 
+Index: 4
+Printing on bucket 4 
+HashTable[4]: (dummy Frank) -> (Frank null) 
+*** enter hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[4]: (dummy Frank) -> (Frank Larry) -> (Larry null) 
+Data inputted: + Maria 
+Index: 3
+Printing on bucket 3 
+HashTable[3]: (dummy null) 
+*** enter hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[3]: (dummy Maria) -> (Maria null) 
+Data inputted: + Nathan 
+Index: 0
+Printing on bucket 0 
+HashTable[0]: (dummy Alice) -> (Alice John) -> (John null) 
+*** enter hashInsert method. Performing hashInsert 
+After hashInsert operation ... 
+HashTable[0]: (dummy Alice) -> (Alice John) -> (John Nathan) -> (Nathan null) 
+Data inputted: - Jane 
+Index: 2
+Printing on bucket 2 
+HashTable[2]: (dummy Bob) -> (Bob Grace) -> (Grace Ivy) -> (Ivy Jane) -> (Jane null) 
+** Inside hashDelete method. Performing hashDelete 
+*** Warning: data is *not* in the database! 
+Data inputted: ? Ivy 
+Index: 2
+Printing on bucket 2 
+HashTable[2]: (dummy Bob) -> (Bob Grace) -> (Grace Ivy) -> (Ivy Jane) -> (Jane null) 
+** Inside hashRetrieval. Performing hashRetrieval 
+** Warning, the record is *not* in the database! 
